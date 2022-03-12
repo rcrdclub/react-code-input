@@ -72,6 +72,9 @@ export interface ReactCodeInputProps {
 
     // The inputMode prop tells the browser on devices with dynamic keyboards which keyboard to display.
     inputMode: InputModeTypes
+    
+    // The opaque autocomplete value.
+    autoComplete: string
 
 }
 
