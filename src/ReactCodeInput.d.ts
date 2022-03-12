@@ -26,13 +26,13 @@ export interface ReactCodeInputProps {
     // Get the full value of the input on every change
     onChange?: (value: string) => void
 
-    // Setting the name of component. 
+    // Setting the name of component.
     name: string
 
-    // Marks the given fields as "touched" to show errors. 
+    // Marks the given fields as "touched" to show errors.
     touch?: (name: string) => void
 
-    // Clears the "touched" flag for the given fields. 
+    // Clears the "touched" flag for the given fields.
     untouch?: (name: string) => void
 
     // Add classname to the root element.
@@ -40,7 +40,7 @@ export interface ReactCodeInputProps {
 
     isValid?: boolean
 
-    // When present, it specifies that the element should be disabled. 
+    // When present, it specifies that the element should be disabled.
     disabled?: boolean
 
     // Setting the styles of container element.
@@ -52,10 +52,10 @@ export interface ReactCodeInputProps {
     // Setting the styles of each input field if isValid prop is false.
     inputStyleInvalid?: React.CSSProperties
 
-    // Setup autofocus on the first input, true by default. 
+    // Setup autofocus on the first input, true by default.
     autoFocus?: boolean
 
-    // 
+    //
     forceUppercase?: boolean
 
     // Filter characters on key down.
@@ -72,9 +72,9 @@ export interface ReactCodeInputProps {
 
     // The inputMode prop tells the browser on devices with dynamic keyboards which keyboard to display.
     inputMode: InputModeTypes
-    
+
     // The opaque autocomplete value.
-    autoComplete: string
+    autoComplete?: string
 
 }
 
