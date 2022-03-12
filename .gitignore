@@ -8,7 +8,6 @@ coverage
 .tmp
 .idea
 .DS_Store
-dist
 
  # Source: https://github.com/storybookjs/storybook/issues/8972#issuecomment-559164304
 
